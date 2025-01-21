@@ -1,0 +1,53 @@
+.header-burger {
+	position: relative;
+	width: 48px;
+	height: 48px;
+	background: #EDEEF2;
+	border-radius: 16px;
+	z-index: 99;
+	display: none;
+
+	@media (max-width: 767.98px) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	span {
+		transition-duration: 0.4s;
+		display: inline-block;
+		width: 16px;
+		height: 1.5px;
+		border-radius: 2px;
+		background: #83859C;
+		position: absolute;
+		left: 16px;
+		top: 18px;
+
+		&:nth-child(2) {
+			top: 22px;
+		}
+
+		&:nth-child(3) {
+			top: 26px;
+		}
+	}
+}
+
+.header-burger.active {
+	span {
+		display: inline-block;
+		transform: rotate(45deg);
+		top: 22px;
+
+		&:nth-child(2) {
+			display: none;
+		}
+
+		&:nth-child(3) {
+			display: inline-block;
+			transform: rotate(-45deg);
+			top: 22px;
+		}
+	}
+}

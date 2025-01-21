@@ -1,0 +1,74 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import "header.scss";
+// @import "slickSlider.scss";
+@import "burger.scss";
+@import "deals.scss";
+@import "restaurant.scss";
+@import "categories.scss";
+@import "login.scss";
+@import "settings.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1160px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+body {
+	font-family: 'Nunito', serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #2B2B43;
+
+	&.scroll-look {
+		overflow: hidden;
+	}
+
+	a {
+		color: #2B2B43;
+	}
+}
+
+//==========================================================================================================
+// repeat code block
+.ibg {
+
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+	img {
+		width: 0;
+		height: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		visibility: hidden;
+		display: none;
+	}
+}
+
+.title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	color: #2B2B43;
+
+	@media (max-width: 991.98px) {
+		font-size: 18px;
+		line-height: 24px;
+	}
+}

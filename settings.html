@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Food delivery</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="img/icons/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-container">
+            <header class="header">
+                <a href="index.html" class="header__logo">
+                    <img src="img/icons/logo.svg" alt="Alt">
+                </a>
+                <div class="header__search header-search">
+                    <label>
+                        <input class="header-search__input" type="text" placeholder="Search">
+                    </label>
+                    <div class="header-search__icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667Z"
+                                stroke="#83859C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M14 14L11.1 11.1" stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                </div>
+                <nav class="header__nav header-nav">
+                    <ul class="header-nav__list first-navigation-list">
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                Restaurants
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                Deals
+                            </a>
+                        </li>
+                        <li class="header-nav__item sing-in-link">
+                            <a href="#" class="header-nav__link">
+                                Sing in
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header-nav__list sing-in">
+                        <li class="header-nav__item _my-order">
+                            <a href="#" class="header-nav__link">
+                                My orders
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                <span class="shopping-bag">
+                                    <span>4</span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="20" height="20" fill="none" />
+                                        <path
+                                            d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                            stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                            stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                <span class="header-nav__avatar avatar">
+                                    <img src="img/avatar/avatar.svg" alt="Alt">
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+        </div>
+
+        <div class="container">
+            <div class="settings">
+                <div class="settings__menu menu">
+                    <h2 class="menu__title">
+                        Settings
+                    </h2>
+                    <a href="#" class="menu__item menu-item active">
+                        <div class="menu-item__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.6666 17.5V15.8333C16.6666 14.9493 16.3155 14.1014 15.6903 13.4763C15.0652 12.8512 14.2174 12.5 13.3333 12.5H6.66665C5.78259 12.5 4.93474 12.8512 4.30962 13.4763C3.6845 14.1014 3.33331 14.9493 3.33331 15.8333V17.5"
+                                    stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M9.99996 9.16667C11.8409 9.16667 13.3333 7.67428 13.3333 5.83333C13.3333 3.99238 11.8409 2.5 9.99996 2.5C8.15901 2.5 6.66663 3.99238 6.66663 5.83333C6.66663 7.67428 8.15901 9.16667 9.99996 9.16667Z"
+                                    stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="menu-item__info">
+                            <h3 class="menu-item__title">
+                                Account
+                            </h3>
+                            <p class="menu-item__subtitle">
+                                Personal information
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="menu__item menu-item">
+                        <div class="menu-item__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.5 8.33333C17.5 14.1667 10 19.1667 10 19.1667C10 19.1667 2.5 14.1667 2.5 8.33333C2.5 6.3442 3.29018 4.43655 4.6967 3.03003C6.10322 1.6235 8.01088 0.833328 10 0.833328C11.9891 0.833328 13.8968 1.6235 15.3033 3.03003C16.7098 4.43655 17.5 6.3442 17.5 8.33333Z"
+                                    stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path
+                                    d="M10 10.8333C11.3807 10.8333 12.5 9.71404 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71404 8.61929 10.8333 10 10.8333Z"
+                                    stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="menu-item__info">
+                            <h3 class="menu-item__title">
+                                Address
+                            </h3>
+                            <p class="menu-item__subtitle">
+                                Shippings addresses
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="menu__item menu-item">
+                        <div class="menu-item__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.5 3.33334H2.49998C1.5795 3.33334 0.833313 4.07953 0.833313 5V15C0.833313 15.9205 1.5795 16.6667 2.49998 16.6667H17.5C18.4205 16.6667 19.1666 15.9205 19.1666 15V5C19.1666 4.07953 18.4205 3.33334 17.5 3.33334Z"
+                                    stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M0.833313 8.33334H19.1666" stroke="#83859C" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="menu-item__info">
+                            <h3 class="menu-item__title">
+                                Payment method
+                            </h3>
+                            <p class="menu-item__subtitle">
+                                Connected credit cards
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="menu__item menu-item">
+                        <div class="menu-item__icon">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.99998 18.3333C9.99998 18.3333 16.6666 15 16.6666 10V4.16667L9.99998 1.66667L3.33331 4.16667V10C3.33331 15 9.99998 18.3333 9.99998 18.3333Z"
+                                    stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="menu-item__info">
+                            <h3 class="menu-item__title">
+                                Security
+                            </h3>
+                            <p class="menu-item__subtitle">
+                                Password, 2FA
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="settings__submenu settings-submenu settings__submenu-account">
+                    <h2 class="settings-submenu__title">
+                        Account
+                    </h2>
+                    <div class="settings-submenu__content">
+                        <section class="personal-information__section submenu-section">
+                            <div class="submenu-section__title">
+                                Personal information
+                            </div>
+
+                            <form action="#" class="submenu-section__form personal-information__form">
+
+                                <label for="avater" class="form-label">Avatar</label>
+                                <div class="personal-information__avatar">
+                                    <div class="avatar-preview">
+                                    </div>
+                                    <div id="changeAvatarImage">
+                                        <input type="file" name="changeAvatarImage"
+                                            accept=".jpg, .svg, .webp, .png, .gif">
+                                        <div class="avatar__chenge-button">Change</div>
+                                    </div>
+
+                                    <div class="avatar__remove-button">Remove</div>
+                                </div>
+
+                                <div class="input-row">
+                                    <div class="first-name">
+                                        <label for="first-name" class="form-label">First name</label>
+                                        <input type="text" value="Jane" class="form-input">
+                                    </div>
+
+                                    <div class="last-name">
+                                        <label for="last-name" class="form-label">Last name</label>
+                                        <input type="text" value="Robertson" class="form-input">
+                                    </div>
+
+                                    <div class="email-input">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" value="jane.robertson@example.com" class="form-input">
+                                    </div>
+
+                                    <div class="phone">
+                                        <label for="phone-number" class="form-label">Phone number</label>
+                                        <input type="tel" value="(217) 555-0113" class="form-input">
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+
+                        <section class="email-notifications__section submenu-section">
+                            <div class="submenu-section__title">
+                                Email notifications
+                            </div>
+
+                            <form action="#" class="submenu-section__form email-notifications__form">
+
+                                <div class="email-notifification-checkbox">
+                                    <input type="checkbox" checked>
+                                    <label for="email-notifification">New deals</label>
+                                </div>
+
+                                <div class="email-notifification-checkbox">
+                                    <input type="checkbox" checked>
+                                    <label for="email-notifification">New restaurants</label>
+                                </div>
+
+                                <div class="email-notifification-checkbox">
+                                    <input type="checkbox" checked>
+                                    <label for="email-notifification">Order statuses</label>
+                                </div>
+
+                                <div class="email-notifification-checkbox">
+                                    <input type="checkbox" checked>
+                                    <label for="email-notifification">Password changes</label>
+                                </div>
+
+                                <div class="email-notifification-checkbox">
+                                    <input type="checkbox" checked>
+                                    <label for="email-notifification">Special offers</label>
+                                </div>
+
+                                <div class="email-notifification-checkbox">
+                                    <input type="checkbox" checked>
+                                    <label for="email-notifification">Newsletter</label>
+                                </div>
+
+                            </form>
+                        </section>
+
+                        <div class="button-container">
+                            <button id="log-out">Log out</button>
+                            <button type="reset" id="discard">Discard changes</button>
+                            <button type="submit" id="save">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ibg.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/settings.js"></script>
+</body>
+
+</html>

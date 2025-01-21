@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Food delivery</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="img/icons/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-container">
+            <header class="header">
+                <a href="index.html" class="header__logo">
+                    <img src="img/icons/logo.svg" alt="Alt">
+                </a>
+                <div class="header__search header-search">
+                    <label>
+                        <input class="header-search__input" type="text" placeholder="Search">
+                    </label>
+                    <div class="header-search__icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667Z"
+                                stroke="#83859C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M14 14L11.1 11.1" stroke="#83859C" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                </div>
+                <nav class="header__nav header-nav">
+                    <ul class="header-nav__list first-navigation-list">
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                Restaurants
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                Deals
+                            </a>
+                        </li>
+                        <li class="header-nav__item sing-in-link">
+                            <a href="login.html" class="header-nav__link">
+                                Sing in
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header-nav__list sing-in">
+                        <li class="header-nav__item _my-order">
+                            <a href="#" class="header-nav__link">
+                                My orders
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                <span class="shopping-bag">
+                                    <span>4</span>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="20" height="20" fill="none" />
+                                        <path
+                                            d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                            stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path
+                                            d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                            stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="header-nav__item">
+                            <a href="#" class="header-nav__link">
+                                <span class="header-nav__avatar avatar">
+                                    <img src="img/avatar/avatar.svg" alt="Alt">
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+        </div>
+
+        <div class="container">
+            <div class="deals">
+                <div class="deal deal_desert">
+                    <div class="deal__img ibg">
+                        <img src="img/deals/desert.svg" alt="Alt">
+                    </div>
+                    <div class="deal__info deal-info">
+                        <div class="deal-info__top">
+                            <h3 class="deal-info__title title">
+                                All deserts
+                            </h3>
+                            <p class="deal-info__discount">
+                                20% OFF
+                            </p>
+                        </div>
+                        <h4 class="deal-info__subtitle">
+                            Deserty
+                        </h4>
+                    </div>
+                </div>
+                <div class="deal deal_burger">
+                    <div class="deal__img ibg">
+                        <img src="img/deals/burger.svg" alt="Alt">
+                    </div>
+                    <div class="deal__info deal-info">
+                        <div class="deal-info__top">
+                            <h3 class="deal-info__title title">
+                                Big Burgers
+                            </h3>
+                            <p class="deal-info__discount">
+                                50% OFF
+                            </p>
+                        </div>
+                        <h4 class="deal-info__subtitle">
+                            Fooddies
+                        </h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories"></div>
+
+            <div class="restaurants">
+                <h3 class="restaurants__title title">
+                    Nearby restaurants
+                </h3>
+                <div class="restaurants__cards">
+                    <div class="restaurants__card restaurants-card">
+                        <div class="featured-icon">
+                            <span>FEATURED</span>
+                        </div>
+                        <div class="restaurants-card__image ibg">
+                            <img src="img/restaurants/01.svg" alt="Alt">
+                        </div>
+                        <div class="restaurants-card__info card-info">
+                            <div class="card-info__top">
+                                <span class="card-info__title">Royal Sushi House</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" fill="white" />
+                                    <path
+                                        d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="card-info__time-and-amount">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_8_346)">
+                                        <rect width="12" height="12" fill="white" />
+                                        <path
+                                            d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+                                            stroke="#C7C8D2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 3V6L8 7" stroke="#C7C8D2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_8_346">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="time-and-amount__time">30-40 min</div>
+                                <div class="time-and-amount__amount">$32 min sum</div>
+                            </div>
+                            <div class="card-info__category">
+                                <span>Sushi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurants__card restaurants-card">
+                        <div class="featured-icon">
+                            <span>FEATURED</span>
+                        </div>
+                        <div class="restaurants-card__image ibg">
+                            <img src="img/restaurants/02.svg" alt="Alt">
+                        </div>
+                        <div class="restaurants-card__info card-info">
+                            <div class="card-info__top">
+                                <span class="card-info__title">Burgers & Pizza</span>
+                                <span class="card-info__amount">2</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" fill="white" />
+                                    <path
+                                        d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="card-info__time-and-amount">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_8_346)">
+                                        <rect width="12" height="12" fill="white" />
+                                        <path
+                                            d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+                                            stroke="#C7C8D2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 3V6L8 7" stroke="#C7C8D2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_8_346">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="time-and-amount__time">40-60 min</div>
+                                <div class="time-and-amount__amount">$24 min sum</div>
+                            </div>
+                            <div class="card-info__category">
+                                <span>Burger</span>
+                                <span>Pizza</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurants__card restaurants-card">
+                        <div class="featured-icon">
+                            <span>FEATURED</span>
+                        </div>
+                        <div class="restaurants-card__image ibg">
+                            <img src="img/restaurants/03.svg" alt="Alt">
+                        </div>
+                        <div class="restaurants-card__info card-info">
+                            <div class="card-info__top">
+                                <span class="card-info__title">Ninja sushi</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" fill="white" />
+                                    <path
+                                        d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="card-info__time-and-amount">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_8_346)">
+                                        <rect width="12" height="12" fill="white" />
+                                        <path
+                                            d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+                                            stroke="#C7C8D2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 3V6L8 7" stroke="#C7C8D2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_8_346">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="time-and-amount__time">20-40 min</div>
+                                <div class="time-and-amount__amount">$40 min sum</div>
+                            </div>
+                            <div class="card-info__category">
+                                <span>Sushi</span>
+                                <span>Burger</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurants__card restaurants-card">
+                        <div class="featured-icon">
+                            <span>FEATURED</span>
+                        </div>
+                        <div class="restaurants-card__image ibg">
+                            <img src="img/restaurants/04.svg" alt="Alt">
+                        </div>
+                        <div class="restaurants-card__info card-info">
+                            <div class="card-info__top">
+                                <span class="card-info__title">Sushi master</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" fill="white" />
+                                    <path
+                                        d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="card-info__time-and-amount">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_8_346)">
+                                        <rect width="12" height="12" fill="white" />
+                                        <path
+                                            d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+                                            stroke="#C7C8D2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 3V6L8 7" stroke="#C7C8D2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_8_346">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="time-and-amount__time">20-40 min</div>
+                                <div class="time-and-amount__amount">$40 min sum</div>
+                            </div>
+                            <div class="card-info__category">
+                                <span>Sushi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurants__card restaurants-card">
+                        <div class="featured-icon">
+                            <span>FEATURED</span>
+                        </div>
+                        <div class="restaurants-card__image ibg">
+                            <img src="img/restaurants/05.svg" alt="Alt">
+                        </div>
+                        <div class="restaurants-card__info card-info">
+                            <div class="card-info__top">
+                                <span class="card-info__title">Japanese sushi</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" fill="white" />
+                                    <path
+                                        d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="card-info__time-and-amount">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_8_346)">
+                                        <rect width="12" height="12" fill="white" />
+                                        <path
+                                            d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+                                            stroke="#C7C8D2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 3V6L8 7" stroke="#C7C8D2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_8_346">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="time-and-amount__time">20-40 min</div>
+                                <div class="time-and-amount__amount">$40 min sum</div>
+                            </div>
+                            <div class="card-info__category">
+                                <span>Sushi</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurants__card restaurants-card">
+                        <div class="featured-icon">
+                            <span>FEATURED</span>
+                        </div>
+                        <div class="restaurants-card__image ibg">
+                            <img src="img/restaurants/06.svg" alt="Alt">
+                        </div>
+                        <div class="restaurants-card__info card-info">
+                            <div class="card-info__top">
+                                <span class="card-info__title">Kobe</span>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="20" height="20" fill="white" />
+                                    <path
+                                        d="M5 1.66667L2.5 5.00001V16.6667C2.5 17.1087 2.67559 17.5326 2.98816 17.8452C3.30072 18.1577 3.72464 18.3333 4.16667 18.3333H15.8333C16.2754 18.3333 16.6993 18.1577 17.0118 17.8452C17.3244 17.5326 17.5 17.1087 17.5 16.6667V5.00001L15 1.66667H5Z"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M2.5 5H17.5" stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M13.3333 8.33333C13.3333 9.21738 12.9821 10.0652 12.357 10.6904C11.7319 11.3155 10.8841 11.6667 10 11.6667C9.11595 11.6667 8.2681 11.3155 7.64298 10.6904C7.01786 10.0652 6.66667 9.21738 6.66667 8.33333"
+                                        stroke="#C7C8D2" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <div class="card-info__time-and-amount">
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_8_346)">
+                                        <rect width="12" height="12" fill="white" />
+                                        <path
+                                            d="M6 11C8.76142 11 11 8.76142 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11Z"
+                                            stroke="#C7C8D2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M6 3V6L8 7" stroke="#C7C8D2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_8_346">
+                                            <rect width="12" height="12" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <div class="time-and-amount__time">20-40 min</div>
+                                <div class="time-and-amount__amount">$40 min sum</div>
+                            </div>
+                            <div class="card-info__category">
+                                <span>Sushi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ibg.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/categories.js"></script>
+    <script src="js/restaurants.js"></script>
+</body>
+
+</html>

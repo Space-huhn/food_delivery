@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+/*# sourceMappingURL=nullstyle.css.map */
+/*
+@font-face {
+	font-family: 'Bebas Neue';
+	src: local('Bebas Neue Thin'), local('BebasNeue-Thin'), url('../../fonts/bebasneuethin.woff2') format('woff2'), url('../../fonts/bebasneuethin.woff') format('woff'), url('../../fonts/bebasneuethin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+*/
+/*
+Переменные для блока
+$fz:100px;
+$color_1:#000;
+$color_2:#fff;
+
+Шаблон №1
+.tplborder{
+	font-size: 100px;
+	border-bottom: 5px dashed red;
+}
+@mixin fontz($f,$c){
+	font-size: $f;
+	color: $c;
+}
+.block{
+	width: 300px / 960px * 100%;
+	background-color: #666;
+	padding: 30px;
+	line-height: 60px;
+	.block__text{
+		font-size: $fz;
+		span{
+			color: green;
+		}
+	}
+}
+.link{
+	@include fontz(80px,green);
+	color: $color_1;
+	text-decoration: underline;
+	font-size: $fz;
+	.block &{
+		font-size: $fz;
+	}
+	&:hover{
+		color: $color_2;
+	}
+	@extend .tplborder;
+}
+.link-2{
+	@include fontz(50px,green);
+	border-bottom: 5px dashed #000;
+	@extend .tplborder;
+}
+*/
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: "Nunito", serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #2B2B43;
+}
+body.scroll-look {
+  overflow: hidden;
+}
+body a {
+  color: #2B2B43;
+}
+
+.ibg {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.ibg img {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  margin: 0 48px 0 0;
+}
+.header-search {
+  padding: 10px 12px;
+  margin: 0 auto 0 0;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  background: #EDEEF2;
+  max-width: 225px;
+  width: 100%;
+}
+.header-search__input {
+  background-color: inherit;
+}
+.header-search__icon {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav__list {
+  display: flex;
+  align-items: center;
+}
+.header-nav__item {
+  margin-right: 28px;
+}
+.header-nav__item:last-child {
+  margin-right: 0;
+}
+.header-nav__item.hide {
+  display: none;
+}
+.sing-in::before {
+  content: "";
+  width: 1px;
+  height: 32px;
+  background-color: #EDEEF2;
+  margin: 0 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
